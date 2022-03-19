@@ -1,0 +1,121 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to top right, white 60%, #f3f3f3 60%);
+}
+header {
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+a {
+    text-decoration: none;
+    color:black;
+}
+header > h1 > a > div#nametag {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 180px;
+    margin: 0px;
+    font-size: x-large;
+}
+
+header > h1 > a:hover {
+    color: rgb(109, 109, 109);
+}
+header > h1 > a > div#title {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 180px;
+    font-size:medium;
+}
+header > h1 {
+    width: 200px;
+    margin-left: 30px;
+    font-size: small;
+    margin-left: 10px;
+}
+header > div#socials {
+    float: right;
+    margin-right: 30px;
+    
+}
+header > div#socials > a > img {
+    width: 25px;
+    height: 25px;
+    margin: 10px;
+}
+header > div#socials > a > img {
+    transform: scale(1);
+    transition: 0.1s ease-in-out;
+}
+
+header > div#socials > a > img:hover {
+    transform: scale(1.3);
+}
+
+div#box > div > img.image_img {
+    display: block;
+    width: 100%;
+    border-radius: 15px;
+}
+div#box > div > .img_overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:rgba(0, 0, 0, 0.6);
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s;
+    border-radius: 15px;
+} 
+
+div#box > div > .img_overlay--blur {
+    backdrop-filter: blur(3px);
+}
+
+div#box > div > section.img_overlay > * {
+    transform: translateY(25px);
+    transition: transform 0.3s;
+}
+
+div#box > div > .img_overlay:hover {
+    opacity: 2;
+}
+
+div#box > div > .img_overlay:hover > *{
+    transform: translateY(0); 
+}
+
+div#box > div > section.img_overlay {
+    color: white;
+    display: flex;
+    font-family: 'Quicksands', sans-serif;
+    font-size: 10mm;
+}
+div#box {
+    margin-top: 50px;
+    justify-content: center;
+    display: flex;
+}
+div#box > div {
+    margin: 20px;
+    display: inline-block;
+    position: relative;
+    width:300px;
+}
+div#intro > H4 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    padding: 1em;
+    width: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f3f3f3;
+    box-shadow: 0 3px 5px rgba(0,0,0,.25);
+    border-radius: 5px;
+}
+
