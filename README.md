@@ -1,2 +1,2 @@
 # Portfolio-Website
-A simple and clean website
+A simple webpage design that showcases elements of HTML and CSS. 
